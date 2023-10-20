@@ -1,0 +1,80 @@
+.wrapper{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.p-s {
+    height: 392px;
+    width: 403px;
+  }
+
+  .rectangle-copy-5 {
+    box-sizing: border-box;
+    height: 393px;
+    width: 397px;
+    border: 1px solid #DFDFEA;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.16);
+  }
+
+  .header{
+    display:flex;
+    justify-content: space-between;
+    margin-top:20.5px;
+    margin-left:20.5px;
+    margin-right:20.5px;
+  }
+
+  .products {
+    height: 15px;
+    width: 58px;
+    color: #22212E;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 15px;
+  }
+
+  /* .icons{
+
+  } */
+
+  .tabs{
+    margin-top:20px;
+    margin-left:43.5px;
+    margin-right:43.5px;
+    height: 51px;
+    width: 310px;
+    background-color: yellow;
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .p-sview-icons-mobile-selected{
+    height:51px;
+    width:55px;
+  }
+
+  .line{
+    color:black;
+    height:1px;
+    width:10px
+  }
+
+.rectangle {
+      height: 1px;
+      width: 392px;
+      background-color: #DFDFEA;
+}
+
+.subscription-dropdown {
+  height: 28px;
+  width: 352px;
+  margin-left: 22.5px;
+  margin-right: 22.5px;
+  margin-top: 20px;
+}

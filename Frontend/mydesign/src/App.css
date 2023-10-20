@@ -7,6 +7,44 @@
   pointer-events: none;
 }
 
+.wrapper{
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.heading{
+  text-align:center;
+  margin-bottom: 5vh;
+  border: solid 1px black;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.profile-container{
+  border: solid 2px black;
+  box-shadow: 15px 15px 12px grey;;
+  min-width: 35vw;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
